@@ -35,7 +35,7 @@ body {
     margin-bottom: 20px;
     text-align: right;
     color: #34495e;
-
+    
   }
   
   .buttons-grid {
@@ -44,4 +44,15 @@ body {
     gap: 15px;
   }
   
- 
+  .button {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #ecf0f1;
+    color: #2c3e50;
+    transition: all 0.3s ease;
+  }
+
+  
