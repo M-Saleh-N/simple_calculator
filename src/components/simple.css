@@ -58,4 +58,11 @@ body {
   .button:hover {
     background: #dcdde1;
   }
- 
+  
+  .clear-button {
+    grid-column: span 4;
+    background: #e74c3c;
+    color: white;
+    font-weight: bold;
+  }
+  
