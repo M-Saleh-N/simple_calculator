@@ -26,7 +26,20 @@ function Calculator() {
 
   return (
     <div className="calculator-container">
-
+      <div className="calculator">
+        <h1 className="title">Simple Calculator</h1>
+        <input type="text" value={input} readOnly className="display" />
+        <div className="buttons-grid">
+          {buttons.map((btn) => (
+            <button key={btn} onClick={() => handleClick(btn)} className="button">
+              {btn}
+            </button>
+          ))}
+          <button onClick={() => handleClick("Clear")} className="button clear-button">
+            Clear
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
