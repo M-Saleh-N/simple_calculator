@@ -26,3 +26,14 @@ body {
     color: #2c3e50;
   }
   
+  .display {
+    width: 100%;
+    padding: 15px;
+    font-size: 24px;
+    border: 2px solid #2ecc71;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: right;
+    color: #34495e;
+  }
+ 
