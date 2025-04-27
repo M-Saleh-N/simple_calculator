@@ -24,6 +24,11 @@ function Calculator() {
     "0", ".", "=", "/"
   ];
 
+  return (
+    <div className="calculator-container">
+
+    </div>
+  );
 }
 
 export default Calculator;
